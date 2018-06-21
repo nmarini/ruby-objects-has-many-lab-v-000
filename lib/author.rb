@@ -19,6 +19,10 @@ class Author
     post_title.author = self
   end
 
+  def self.count
+    Post.all.size
+  end
+
 
 
 end
