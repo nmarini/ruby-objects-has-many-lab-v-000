@@ -13,7 +13,7 @@ end
     song = Song.new(song)
     song.artist = self
   end
-  
+
 
 
 
