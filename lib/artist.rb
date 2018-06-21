@@ -18,7 +18,8 @@ class Artist
     song_name = Song.new(song_name)
     song_name.artist = self 
     @song << song_name
-    
+  end
+  
 
 
 
